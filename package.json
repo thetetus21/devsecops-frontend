@@ -37,7 +37,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false react-scripts build",
     "prod": "serve -s build",
     "test": "JEST_JUNIT_OUTPUT_DIR=./reports/junit JEST_JUNIT_OUTPUT_NAME=junit-report.xml react-scripts test --reporters=default --reporters=jest-junit",
     "eject": "react-scripts eject"

@@ -140,3 +140,6 @@ vite.config.ts.timestamp-*
 
 # JUnit Reports
 reports
+
+# npm run build output
+build/
